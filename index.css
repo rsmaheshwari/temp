@@ -23,6 +23,7 @@ max-width: 100%;
 	justify-content: center;
 	align-items: center;
 	border: 1px solid black;
+	font-family: magenta medium;
 }
 
 .menu{
@@ -35,11 +36,42 @@ max-width: 100%;
 
 .bar1,.bar2,.bar3{
 	
-	width: 5.3rem;
+	justify-content: center;
+	align-items: center;
+	width: 7rem;
 	height: 1.1rem;
 	background-color: black;
-	margin: .3rem;
+	margin: 1rem;
+
 }
 
+.nav_bar{
+	position: relative;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	background-color:#c9c6b9;
+
+}
+
+.nav_links{
+	display: inline-block ;
+	width: 130px;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #696959;
+	text-decoration: none;
+	font-family: caliber;
+	font-weight: bold;
+
+}
+.nav_links:hover{
+	color: #e67840;
+	text-decoration: none;
+}
 
 
