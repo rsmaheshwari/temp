@@ -1,31 +1,20 @@
-button , link{
-	cursor: pointer;
-}
-
-
 .row{
-	display: flex;
-	border: 1px solid black;
-
+position: relative;
+display: flex;
+border: 1px solid black;
+font-size: 3rem;
 }
+
 .col-sm-2{
 	border: 1px solid black;
-	
+
 }
+
 .col-sm-6{
-	display: flex;
 	border: 1px solid black;
-	font-size: 3.5rem;
-	text-align: center;
-	margin: auto;
-}
-.col-xs-6{
-	font-size: 2rem;
 }
 
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
 
 
-}
+
