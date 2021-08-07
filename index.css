@@ -2,7 +2,7 @@
 position: relative;
 display: flex;
 border: 1px solid black;
-font-size: 3rem;
+font-size: 3.8rem;
 text-align: center;
 margin: auto;
 max-width: 100%;
@@ -35,8 +35,8 @@ max-width: 100%;
 
 .bar1,.bar2,.bar3{
 	
-	width: 5rem;
-	height: 1.3rem;
+	width: 5.3rem;
+	height: 1.1rem;
 	background-color: black;
 	margin: .3rem;
 }
