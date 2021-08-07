@@ -5,6 +5,7 @@ border: 1px solid black;
 font-size: 3rem;
 text-align: center;
 margin: auto;
+max-width: 100%;
 }
 
 .col-sm-2{
@@ -19,6 +20,8 @@ margin: auto;
 .col-sm-6{
 	position: relative;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 1px solid black;
 }
 
@@ -26,7 +29,6 @@ margin: auto;
 	position: relative;
 	width: 6rem;
 	height:6rem;
-	border: 1px solid black;
 	cursor: pointer;
 
 }
