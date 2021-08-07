@@ -3,14 +3,14 @@ button , link{
 }
 
 
-.row-1{
+.row{
 	display: flex;
 	border: 1px solid black;
 
 }
 .col-sm-2{
 	border: 1px solid black;
-	width: 15%;
+	
 }
 .col-sm-6{
 	display: flex;
@@ -19,7 +19,9 @@ button , link{
 	text-align: center;
 	margin: auto;
 }
-
+.col-xs-6{
+	font-size: 2rem;
+}
 
 
 @media only screen and (min-width: 600px) {
