@@ -2,12 +2,12 @@
 <html lang = "en">
 	<head>
 		<meta charset="UTF-8">
-		 <meta name="viewport" ,content="width=device-width, initial-scale=1, user-scalable = no">
+		 <meta name="viewport" ,content="width=device-width, initial-scale=1,  user-scalable = no">
 		 <link rel = "stylesheet", href="index.css">
 		 <link rel = "icon" href="logo.jpeg" >
 
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		
 		<title>Shri Ardhnarishwar Jyotirlinga Mandir, Mohgaon Haveli, Dist. Chhindwara(M.P)</title>
@@ -18,7 +18,7 @@
 		<div class="row">
 			<div class="col-sm-2 col-xs-3 col-lg-2">
 				
-				<div class="menu">
+				<div class="menu_button">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
 					<div class="bar3"></div>
@@ -30,10 +30,38 @@
 			<div class="col-sm-6 col-xs-6 col-lg-6"><p>Shri Ardhnarishwar Jyotirlinga Mandir</p></div>
 		</div>
 
+
+		<!-- Mobile Menu -->
+
+			<ul class="menu">
+				<li class="menu_item">    
+					<a href="index.html">Home</a>
+				</li>
+				<li class="menu_item">
+					<button class="drop_btn">About<i class="fa fa-caret-down"></i></button>
+					<ul class="sub_menu">
+							<li class="sub_menu_item">
+								<a href="#AboutUs">About Us</a>
+							</li>
+							<li class="sub_menu_item">
+								<a href="#History">History</a>
+							</li>
+							<li class="sub_menu_item">
+								<a href="#Committee">Committee</a>
+							</li>
+							<li class="sub_menu_item">
+								<a href="#Schedule">Schedule</a>
+							</li>
+					</ul>
+				</li>
+
+
+			</ul>
+		
 		<!-- Nav Bar -->
 
 		<nav class="nav_bar">
-			<a class="nav_links" href="#Home">Home</a>
+			<a class="nav_links" href=index.html onclick="window.location.reload(true);">Home</a>
 			<a class="nav_links" href="#About">About</a>
 			<a class="nav_links" href="#OnlineServices">Online Services</a>
 			<a class="nav_links" href="#media">Media</a>
