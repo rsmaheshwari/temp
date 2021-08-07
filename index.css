@@ -2,24 +2,31 @@
 position: relative;
 display: flex;
 border: 1px solid black;
-font-size: 3.5rem;
+font-size: 3rem;
 text-align: center;
 margin: auto;
 }
 
 .col-sm-2{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid black;
 
 }
 
 .col-sm-6{
+	position: relative;
 	display: flex;
 	border: 1px solid black;
 }
 
 .menu{
+	position: relative;
 	width: 4rem;
-	height:4rem`;
+	height:4rem;
+	cursor: pointer;
 
 }
 
