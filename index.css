@@ -57,7 +57,14 @@ max-width: 100%;
 
 
 
-@media (max-width: 480px) { 
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
 .nav-item{
 	position: relative;
 	display: flex;
@@ -107,8 +114,5 @@ max-width: 100%;
 	background-color: #eef0e9;
 }
 
-.nav nav-tabs nav-justified{
-	display: none;
-}
 
 }
