@@ -107,7 +107,7 @@ max-width: 100%;
 	background-color: #eef0e9;
 }
 
-.nav nav-tabs{
+.nav nav-tabs nav-justified{
 	display: none;
 }
 
