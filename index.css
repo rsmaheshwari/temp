@@ -60,8 +60,8 @@ max-width: 100%;
 
 
 @media only screen 
-  and (min-width: 240px) 
-  and (max-width: 400px) { 
+  and (min-width: 240) 
+  and (max-width: 400) { 
 
 .nav-item{
 	position: relative;
