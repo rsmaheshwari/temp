@@ -54,6 +54,10 @@ max-width: 100%;
 
 
 
+
+
+
+@media (max-width: 480px) { 
 .nav-item{
 	position: relative;
 	display: flex;
@@ -103,3 +107,8 @@ max-width: 100%;
 	background-color: #eef0e9;
 }
 
+.nav nav-tabs{
+	display: none;
+}
+
+}
