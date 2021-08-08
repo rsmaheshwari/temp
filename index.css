@@ -59,7 +59,7 @@ max-width: 100%;
 
 
 
-@media all  and (max-width: 400px) { 
+@media screen and (max-width: 1000px){ 
 
 .nav-item{
 	position: relative;
