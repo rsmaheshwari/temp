@@ -37,6 +37,7 @@ max-width: 100%;
 	cursor: pointer;
 	padding: 1rem;
 	margin-top: 1.5rem ;
+	margin-left: 1rem;
 
 }
 
@@ -103,14 +104,14 @@ max-width: 100%;
 	background-color: #eef0e9;
 }
 
-
-#mobile_menu{
-display: none;
+.menu_button{
+	display: none;
 }
 
 
-.menu_button{
-	display: none;
+.carousel slide{
+	position: relative;
+	display: flex;
 }
 
 @media all and (max-width: 1000px){ 
