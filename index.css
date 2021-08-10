@@ -6,7 +6,7 @@ a,button{
 position: relative;
 display: flex;
 border: 1px solid black;
-font-size: 3.3rem;
+font-size: 2.7rem;
 text-align: center;
 margin: auto;
 max-width: 100%;
@@ -91,17 +91,21 @@ max-width: 100%;
 	width: 100%;
 	height: 30px;
 	background-color:white ;
-	color: #71736b;
 	font-family: caliber;
 	font-weight: bold;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	color: #696959;
+	text-decoration: none;
+	font-weight: bold;
+
 }
 .dropdown-item:hover{
 	text-decoration: none;
-	color: #e67840;
-	background-color: #eef0e9;
+	color: #e67840 !important;
+	background-color: #eef0e9 !important;
+
 }
 
 .menu_button{
@@ -109,10 +113,9 @@ max-width: 100%;
 }
 
 
-.carousel slide{
-	position: relative;
-	display: flex;
-}
+
+
+
 
 @media all and (max-width: 1000px){ 
 
@@ -120,25 +123,22 @@ max-width: 100%;
 	position: relative;
 	display: flex;
 	margin: auto;
-	justify-content: center;
-	align-items: center;
 	background-color:black;
 	font-size: 30px;
+	width: 100%;
 }
 
 .nav-link{
 	display: inline-block ;
-	width: 130px;
 	height: 160px;
-	text-align: center;
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	color: white;
 	background-color: black!important;
 	text-decoration: none;
 	font-family: caliber;
 	font-weight: bold;
+	text-align: left;
 
 }
 .nav-link:hover{
@@ -155,7 +155,6 @@ max-width: 100%;
 	position: relative;
 	display: flex;
 	display: block;
-	width: 100%;
 	height: 85px;
 	background-color:black ;
 	color: #f0eded;
@@ -169,7 +168,7 @@ max-width: 100%;
 .dropdown-item:hover{
 	text-decoration: none;
 	color: #e67840;
-	background-color: black;
+	background-color: black !important;
 }
 
 .desktop_menu{
@@ -180,6 +179,6 @@ max-width: 100%;
 	display: block;
 }
 .row{
-	font-size: 4rem;
+	font-size: 2.5rem;
 }
 }
