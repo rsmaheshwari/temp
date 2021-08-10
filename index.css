@@ -126,13 +126,14 @@ max-width: 100%;
 	display: flex;
 	margin: auto;
 	background-color:black;
-	font-size: 30px;
+	font-size: 500%;
 	width: 100%;
+	justify-content: center!important;
 }
 
 .nav-link{
 	display: inline-block ;
-	height: 160px;
+	height: 100%;
 	width: 100%;
 	display: flex;
 	color: white;
@@ -160,7 +161,7 @@ max-width: 100%;
 	height: 85px;
 	background-color:black ;
 	color: white !important	;
-	font-size: 30px;
+	font-size: 500%;
 	font-family: caliber!important;
 	font-weight: bold !important;
 	justify-content: center;
