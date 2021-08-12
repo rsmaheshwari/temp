@@ -119,6 +119,12 @@ max-width: 100%;
 }
 
 
+.container-fluid{
+	position: relative;
+	
+}
+
+
 @media all and (max-width: 1000px){ 
 
 .nav-item{
